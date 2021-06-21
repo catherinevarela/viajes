@@ -223,14 +223,61 @@
               <h5 class="card-title mb-4 ms-2 me-2">
                 Lorem ipsum dolor sit amet
               </h5>
-              <p class="card-text mb-5 ms-2 me-2">
+              <p class="card-text mb-3 ms-2 me-2">
                 Donec pharetra mauris in urna luctus, at egestas sapien luctus.
                 Nullam accumsan, eros in rhoncus gravida, risus felis tristique
                 tellus, vel tempus odio justo non dolor
               </p>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn btn-outline-light"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                ¿Más información?
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title mod" id="exampleModalLabel">
+                        Para más información
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body mod">
+                      Llama al +56 9 5555 5555 de lunes a viernes
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+
         <div class="col mb-4">
           <div class="card text-white bg-info border border-2">
             <img src="./assets/img/card2.jpg" class="card-img-top" alt="..." />
